@@ -78,7 +78,7 @@
         
         <div class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
             {#each tils as til, index}
-                <div class="group overflow-hidden rounded-xl bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-800">
+                <div class="group z-0 overflow-hidden rounded-xl bg-white p-6 shadow-md transition-all dark:bg-gray-800 md:hover:z-10 md:hover:scale-125 md:hover:shadow-xl">
                     <div class="mb-4 flex items-center justify-between">
                         <span class="rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800 dark:bg-green-900 dark:text-green-100">
                             {til.status}
@@ -93,17 +93,10 @@
                     </h3>
                     
                     <div class="relative">
-                        <p class="mb-4 text-gray-600 dark:text-gray-300 {expandedStates[index] ? '' : 'line-clamp-3'}">
+                        <p class="mb-4 line-clamp-3 text-gray-600 dark:text-gray-300 md:group-hover:line-clamp-none md:group-hover:text-xs">
                             {til.description}
                         </p>
-                        {#if til.description.length > 150}
-                            <button 
-                                onclick={() => toggleDescription(index)}
-                                class="text-sm font-medium text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
-                            >
-                                {expandedStates[index] ? 'Show Less' : 'Show More'}
-                            </button>
-                        {/if}
+                       
                     </div>
                     
                     <div class="mb-4 flex flex-wrap gap-2">

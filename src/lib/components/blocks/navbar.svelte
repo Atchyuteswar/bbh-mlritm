@@ -12,7 +12,6 @@
 		{ name: 'Events', href: '/events' },
 		{ name: 'Team', href: '/team' },
 		{ name: 'Photobooth', href: '/photobooth' },
-		{ name: 'About', href: '/about' }
 	];
 
 	// Reactive statement to determine if the current route matches the item
