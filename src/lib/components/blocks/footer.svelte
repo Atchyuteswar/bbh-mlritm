@@ -2,14 +2,13 @@
 	import ThemeSwitch from '@/components/blocks/ThemeSwitch.svelte';
 	import { Heart, MoveUp, ArrowUpFromDot, ArrowUp } from 'lucide-svelte';
 	import { Github } from 'lucide-svelte';
-	import logo from "$lib/assets/logo.png";
+	import logo from '$lib/assets/logo.png';
 
 	const menuItems = [
 		{ name: 'Home', href: '/' },
 		{ name: 'Events', href: '/events' },
 		{ name: 'Team', href: '/team' },
-		{ name: 'Photobooth', href: '/photobooth' },
-		{ name: 'About', href: '/about' }
+		{ name: 'Photobooth', href: '/photobooth' }
 	];
 
 	const currentYear = new Date().getFullYear();
@@ -35,10 +34,7 @@
 				<ul class="space-y-2">
 					{#each menuItems as item}
 						<li>
-							<a
-								href={item.href}
-								class="text-gray-400 transition-colors hover:text-white"
-							>
+							<a href={item.href} class="text-gray-400 transition-colors hover:text-white">
 								{item.name}
 							</a>
 						</li>
@@ -59,17 +55,17 @@
 			<!-- Social Links -->
 			<div class="text-center md:text-left">
 				<h3 class="mb-4 text-lg font-semibold">Connect</h3>
-				<div class="flex justify-center space-x-4 md:justify-start">
+				<div class="flex items-center justify-center space-x-4 md:justify-start">
 					<a
 						href="https://github.com/BBH-MLRITM"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="text-gray-400 transition-colors hover:text-white"
+						class="rounded-md p-3 text-gray-400 transition-colors hover:border-gray-400 hover:bg-teal-400 hover:text-white"
 					>
 						<Github class="size-6" />
 					</a>
+					<ThemeSwitch />
 				</div>
-			
 			</div>
 		</div>
 
