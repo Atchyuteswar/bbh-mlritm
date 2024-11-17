@@ -15,7 +15,7 @@
         {
             img: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
             title: "Orientation Day and Workshop",
-            description: "Starting your blockchain journey with hands-on workshops and networking.",
+            description: "An Orientation Day & Workshop to get you started with Blockchain technology. You will learn to make a wallet and its functions, abilities and how to use it.",
             status: "Registration Open",
             type: "Workshop",
             state: "Open",
