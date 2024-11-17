@@ -50,10 +50,10 @@
     ];
 </script>
 
-<main class="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 dark:from-gray-900 dark:to-black">
+<main class="min-h-screen bg-gradient-to-b from-white to-white dark:from-gray-900 dark:to-black">
     <section class="px-4 py-16">
         <div class="container mx-auto">
-            <h1 class="mb-12 text-center text-4xl font-bold text-gray-900 dark:text-white">Our Team</h1>
+            <h1 class="mb-12 text-center text-4xl font-bold text-black dark:text-white">Our Team</h1>
             <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {#each teamMembers as member}
                     <div class="flex flex-col items-center">

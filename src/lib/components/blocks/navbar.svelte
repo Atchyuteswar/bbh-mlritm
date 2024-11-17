@@ -28,7 +28,7 @@
 	let show = $state(false);
 </script>
 
-<nav class="border-gray-700 bg-gray-800 dark:bg-gray-900">
+<nav class="border-gray-700 bg-white-800 dark:bg-gray-900">
 	<div class="flex flex-wrap items-center justify-around p-4">
 		<!-- Logo -->
 		<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -47,13 +47,13 @@
 				rel="noopener noreferrer"
 				class="rounded-lg p-2.5 text-sm text-gray-300 hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-600 dark:text-gray-400 dark:hover:bg-gray-700"
 			>
-				<Github />
+				<Github class="text-black dark:text-gray-400 h-6 w-6" />
 			</a>
 			<Button
 				data-collapse-toggle="navbar-user"
 				variant="ghost"
 				size="icon"
-				class="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-300 hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-600 dark:text-gray-400 md:hidden"
+				class="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-black hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-4 focus:ring-gray-600 dark:text-gray-400 md:hidden"
 				aria-controls="navbar-user"
 				onclick={() => (show = !show)}
 				aria-expanded="false"
@@ -74,7 +74,7 @@
 					<li>
 						<a
 							href={item.href}
-							class={`${isActive(item.name) ? 'block rounded bg-teal-700 px-3 py-2 capitalize text-white md:bg-transparent md:p-0 md:text-teal-700 md:dark:text-teal-500' : 'block rounded px-3 py-2 text-gray-300 hover:bg-gray-700 hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:p-0 md:hover:bg-transparent md:hover:text-teal-400'}`}
+							class={`${isActive(item.name) ? 'block rounded bg-teal-700 px-3 py-2 capitalize text-white md:bg-transparent md:p-0 md:text-teal-700 md:dark:text-teal-500' : 'block rounded px-3 py-2 text-black hover:bg-gray-700 hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:p-0 md:hover:bg-transparent md:hover:text-teal-400'}`}
 							aria-current={isActive(item.name) ? 'page' : undefined}>{item.name}</a
 						>
 					</li>

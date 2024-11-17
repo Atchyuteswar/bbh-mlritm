@@ -63,7 +63,7 @@
         <!-- Events Grid -->
         <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {#each events as event}
-                <div class="group relative overflow-hidden rounded-xl bg-gray-700/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-gray-800/50 dark:shadow-gray-900/30">
+                <div class="group relative overflow-hidden rounded-xl bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-gray-800/50 dark:shadow-gray-900/30">
                     <!-- Event Image -->
                     {#if event.img}
                         <div class="mb-6 aspect-video overflow-hidden rounded-lg">
@@ -89,8 +89,8 @@
                     </div>
 
                     <!-- Event Title & Description -->
-                    <h2 class="mb-3 text-xl font-semibold text-gray-900 dark:text-white">{event.title}</h2>
-                    <p class="mb-4 text-gray-600 dark:text-gray-300">{event.description}</p>
+                    <h2 class="mb-3 text-xl font-semibold text-black dark:text-white">{event.title}</h2>
+                    <p class="mb-4 text-black dark:text-gray-300">{event.description}</p>
 
                     <!-- Event Details -->
                     <div class="mt-6 flex flex-wrap items-center gap-4 border-t border-gray-100 pt-4 text-sm dark:border-gray-700">
@@ -98,20 +98,20 @@
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                             </svg>
-                            <span class="text-gray-600 dark:text-gray-400">{event.date}</span>
+                            <span class="text-black dark:text-gray-400">{event.date}</span>
                         </div>
                         <div class="flex items-center gap-2">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                             </svg>
-                            <span class="text-gray-600 dark:text-gray-400">{event.author}</span>
+                            <span class="text-black dark:text-gray-400">{event.author}</span>
                         </div>
                     </div>
 
                     <!-- Tags -->
                     <div class="mt-4 flex flex-wrap gap-2">
                         {#each event.tags as tag}
-                            <span class="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-600 dark:bg-gray-700 dark:text-gray-300">
+                            <span class="rounded-full bg-gray-100 px-3 py-1 text-sm text-black dark:bg-gray-700 dark:text-gray-300">
                                 #{tag}
                             </span>
                         {/each}
