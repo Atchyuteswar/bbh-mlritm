@@ -15,7 +15,7 @@
 	const currentYear = new Date().getFullYear();
 </script>
 
-<footer class="w-full bg-black py-8 text-white">
+<footer class="bg-gray-800 py-12 text-gray-300 dark:bg-gray-900">
 	<div class="container mx-auto px-4 md:px-6">
 		<div class="grid grid-cols-1 gap-8 md:grid-cols-4">
 			<!-- Logo and Description -->
@@ -23,57 +23,57 @@
 				<a href="/" class="flex items-center space-x-2">
 					<img src={FooterLogo} alt="BBH-MLRITM Logo" class="h-30 w-60" />
 				</a>
-				<p class="mt-4 text-sm text-gray-400">
+				<p class="mt-4 text-sm sm:text-center text-gray-400">
 					Empowering students through Blockchain technology and innovation at MLRITM.
 				</p>
 			</div>
 
 			<!-- Quick Links -->
-			<div class="text-center md:text-left">
-				<h3 class="mb-4 text-lg font-semibold">Quick Links</h3>
+			<div>
+				<h3 class="mb-4 text-lg font-semibold text-teal-400">Quick Links</h3>
 				<ul class="space-y-2">
 					{#each menuItems as item}
 						<li>
-							<a href={item.href} class="text-gray-400 transition-colors hover:text-white">
-								{item.name}
-							</a>
+							<a href={item.href} class="hover:text-teal-400 transition-colors">{item.name}</a>
 						</li>
 					{/each}
 				</ul>
 			</div>
 
-			<!-- Contact -->
-			<div class="text-center md:text-left">
-				<h3 class="mb-4 text-lg font-semibold">Contact</h3>
-				<ul class="space-y-2 text-gray-400">
-					<li>MLRITM</li>
-					<li>Dundigal, Hyderabad, India.</li>
-					<li>Phno: +91 77028 50277</li>
-					<li>Email: atchyuteswar.gottumukkala@timechainlabs.com</li>
-				</ul>
-			</div>
-
 			<!-- Social Links -->
-			<div class="text-center md:text-left">
-				<h3 class="mb-4 text-lg font-semibold">Connect</h3>
-				<div class="flex items-center justify-center space-x-4 md:justify-start">
+			<div>
+				<h3 class="mb-4 text-lg font-semibold text-teal-400">Connect With Us</h3>
+				<div class="flex space-x-4">
 					<a
-						href="https://www.linkedin.com/showcase/bigblockers/posts/?feedView=all"
+						href="https://github.com/bbh-mlritm"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="rounded-md p-3 text-gray-400 transition-colors hover:border-gray-400 hover:bg-teal-400 hover:text-white"
+						class="text-gray-400 hover:text-teal-400 transition-colors"
 					>
-						<Linkedin class="size-6" />
+						<Github />
 					</a>
-					<ThemeSwitch />
+					<a
+						href="https://www.linkedin.com/company/big-blockers-hyderabad/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="text-gray-400 hover:text-teal-400 transition-colors"
+					>
+						<Linkedin />
+					</a>
 				</div>
+			</div>
+
+			<!-- Theme Switch -->
+			<div class="flex flex-col items-center md:items-start">
+				<h3 class="mb-4 text-lg font-semibold text-teal-400">Theme</h3>
+				<ThemeSwitch />
 			</div>
 		</div>
 
-		<!-- Copyright -->
-		<div class="mt-8 border-t border-gray-800 pt-8 text-center">
+		<div class="mt-8 flex items-center justify-center border-t border-gray-700 pt-8">
 			<p class="text-sm text-gray-400">
-				&copy; {currentYear} BBH-MLRITM. All rights reserved.
+				&copy; {new Date().getFullYear()} BBH-MLRITM. Made with <Heart class="inline h-4 w-4 text-red-500" /> by
+				the BBH-MLRITM team
 			</p>
 		</div>
 	</div>

@@ -17,7 +17,7 @@
     ];
 </script>
 
-<main class="min-h-screen p-4">
+<main class="min-h-screen p-4 bg-gradient-to-b from-gray-800 to-gray-900 dark:from-gray-900 dark:to-black">
     <div class="container mx-auto">
         <h1 class="mb-8 text-3xl font-bold">Photo Gallery</h1>
         <div class="columns-1 gap-4 sm:columns-2 md:columns-3 lg:columns-4 [&>div:not(:first-child)]:mt-4">

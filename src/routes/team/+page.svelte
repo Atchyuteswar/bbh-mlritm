@@ -50,7 +50,7 @@
     ];
 </script>
 
-<main class="min-h-screen bg-gray-50 dark:bg-gray-900">
+<main class="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 dark:from-gray-900 dark:to-black">
     <section class="px-4 py-16">
         <div class="container mx-auto">
             <h1 class="mb-12 text-center text-4xl font-bold text-gray-900 dark:text-white">Our Team</h1>

@@ -48,14 +48,14 @@
     ];
 </script>
 
-<main class="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 dark:from-gray-900 dark:to-gray-800">
+<main class="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 py-16 dark:from-gray-900 dark:to-black">
     <div class="container mx-auto px-4">
         <!-- Header Section -->
         <div class="mb-16 text-center">
-            <h1 class="mb-4 bg-gradient-to-r from-teal-400 to-teal-600 bg-clip-text text-5xl font-bold text-transparent dark:from-teal-200 dark:to-teal-400">
+            <h1 class="mb-4 bg-gradient-to-r from-teal-400 to-teal-600 bg-clip-text text-5xl font-bold text-transparent dark:from-teal-300 dark:to-teal-500">
                 Events & Workshops
             </h1>
-            <p class="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-300">
+            <p class="mx-auto max-w-2xl text-lg text-gray-300 dark:text-gray-400">
                 Join our upcoming events and workshops to learn about blockchain technology, participate in hands-on sessions, and connect with like-minded individuals.
             </p>
         </div>
@@ -63,7 +63,7 @@
         <!-- Events Grid -->
         <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {#each events as event}
-                <div class="group relative overflow-hidden rounded-xl bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-gray-800/50 dark:shadow-gray-900/30">
+                <div class="group relative overflow-hidden rounded-xl bg-gray-700/50 p-6 shadow-lg transition-all duration-300 hover:shadow-xl dark:bg-gray-800/50 dark:shadow-gray-900/30">
                     <!-- Event Image -->
                     {#if event.img}
                         <div class="mb-6 aspect-video overflow-hidden rounded-lg">
