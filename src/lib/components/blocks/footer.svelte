@@ -3,6 +3,7 @@
 	import { Heart, MoveUp, ArrowUpFromDot, ArrowUp, Linkedin } from 'lucide-svelte';
 	import { Github } from 'lucide-svelte';
 	import logo from '$lib/assets/logo.png';
+	import FooterLogo from '$lib/assets/footer-logo.png';
 
 	const menuItems = [
 		{ name: 'Home', href: '/' },
@@ -20,8 +21,7 @@
 			<!-- Logo and Description -->
 			<div class="flex flex-col items-center md:items-start">
 				<a href="/" class="flex items-center space-x-2">
-					<img src={logo} alt="BBH-MLRITM Logo" class="h-10 w-10" />
-					<span class="text-xl font-semibold">BBH-MLRITM</span>
+					<img src={FooterLogo} alt="BBH-MLRITM Logo" class="h-30 w-60" />
 				</a>
 				<p class="mt-4 text-sm text-gray-400">
 					Empowering students through Blockchain technology and innovation at MLRITM.
