@@ -54,6 +54,8 @@
 	<div
 		class="relative flex h-fit w-full flex-col items-center overflow-hidden rounded-lg border border-slate-200 bg-slate-900 px-4 py-20 pb-36 dark:border-slate-800 dark:bg-[#000000] md:shadow-xl"
 	>
+	<Particles className="absolute inset-0"  />
+
 
     <BlurFade delay={0.25}>
         <span
@@ -69,14 +71,22 @@
       </BlurFade>
 		
 
-		<div class="flex items-center justify-center gap-4">
+		<div class="relative flex w-full items-center justify-center gap-4">
 			<a href="/events">
 				<PulsatingButton class="px-6 py-3">Upcoming Events</PulsatingButton>
 			</a>
-			<a href="/team" class="rounded-lg border  border-[#0D9488] px-6 py-3 text-[#2cc2a4] transition hover:bg-[#0D9488]/10 dark:border-[#99F6E4] dark:text-[#99F6E4] dark:hover:bg-[#0D9488]/30"
-				>Meet the Team</a>
+			<a href="/team" class="relative flex cursor-pointer items-center justify-center rounded-lg border border-[#0D9488] px-6 py-3 text-center text-[#2cc2a4] transition hover:bg-[#0D9488]/10 dark:border-[#99F6E4] dark:text-[#99F6E4] dark:hover:bg-[#0D9488]/30"
+				>
+				<span>
+					
+					Meet the Team
+				</span>
+				<div
+				class="absolute left-1/2 top-1/2 size-full -translate-x-1/2 -translate-y-1/2 rounded-lg bg-inherit"
+			  ></div>
+			</a>
 		</div>
-		<Particles className="absolute inset-0" refresh={true} />
+	
 	</div>
 
 	<!-- Features Section -->
@@ -94,6 +104,8 @@
 			</div>
 		</div>
 	</section>
+
+	
 
 	<!-- Recent Activities Section -->
 	<section class="bg-gradient-to-r from-blue-200 to-cyan-200 py-16 text-slate-900 dark:bg-gradient-to-r dark:from-blue-800 dark:to-cyan-900 dark:text-white">
