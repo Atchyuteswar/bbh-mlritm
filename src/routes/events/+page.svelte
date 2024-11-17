@@ -48,6 +48,19 @@
     ];
 </script>
 
+<svelte:head>
+    <title>Events - Big Blockers - MLRITM</title>
+    <meta name="description" content="Explore upcoming blockchain events, workshops, and hackathons at Big Blockers Hyderabad. Join our community events and stay updated with the latest in blockchain technology." />
+    <meta name="keywords" content="blockchain events, MLRITM events, hackathons, workshops, tech events, Big Blockers Hyderabad" />
+    <meta property="og:title" content="Events - Big Blockers Hyderabad MLRITM" />
+    <meta property="og:description" content="Discover exciting blockchain events and workshops at Big Blockers Hyderabad. Join us for hands-on learning experiences." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bbh-mlritm.com/events" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Events - Big Blockers Hyderabad MLRITM" />
+    <meta name="twitter:description" content="Discover exciting blockchain events and workshops at Big Blockers Hyderabad. Join us for hands-on learning experiences." />
+</svelte:head>
+
 <main class="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 py-16 dark:from-gray-900 dark:to-black">
     <div class="container mx-auto px-4">
         <!-- Header Section -->

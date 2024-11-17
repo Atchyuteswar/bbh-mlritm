@@ -39,6 +39,19 @@
 	}));
 </script>
 
+<svelte:head>
+    <title>Big Blockers Hyderabad - MLRITM's Premier Blockchain Community</title>
+    <meta name="description" content="Join Big Blockers Hyderabad at MLRITM, where we empower students through blockchain technology and innovation. Discover workshops, events, and a vibrant tech community." />
+    <meta name="keywords" content="blockchain, MLRITM, Big Blockers Hyderabad, student community, technology, innovation, cryptocurrency" />
+    <meta property="og:title" content="Big Blockers Hyderabad - MLRITM" />
+    <meta property="og:description" content="Join MLRITM's premier blockchain community. Learn, innovate, and grow with Big Blockers Hyderabad." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bbh-mlritm.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Big Blockers Hyderabad - MLRITM" />
+    <meta name="twitter:description" content="Join MLRITM's premier blockchain community. Learn, innovate, and grow with Big Blockers Hyderabad." />
+</svelte:head>
+
 <main class="min-h-screen">
 	<!-- Hero Section -->
 	<div

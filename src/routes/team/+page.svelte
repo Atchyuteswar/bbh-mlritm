@@ -50,6 +50,19 @@
     ];
 </script>
 
+<svelte:head>
+    <title>Our Team - Big Blockers - MLRITM</title>
+    <meta name="description" content="Meet the passionate team behind Big Blockers Hyderabad at MLRITM. Our diverse group of blockchain enthusiasts, developers, and innovators driving the future of technology." />
+    <meta name="keywords" content="BBH team, MLRITM blockchain team, student innovators, tech leaders, Big Blockers Hyderabad team" />
+    <meta property="og:title" content="Our Team - Big Blockers Hyderabad MLRITM" />
+    <meta property="og:description" content="Meet the innovative minds behind Big Blockers Hyderabad. Discover our team of blockchain enthusiasts and tech leaders." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bbh-mlritm.com/team" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Our Team - Big Blockers Hyderabad MLRITM" />
+    <meta name="twitter:description" content="Meet the innovative minds behind Big Blockers Hyderabad. Discover our team of blockchain enthusiasts and tech leaders." />
+</svelte:head>
+
 <main class="min-h-screen bg-gradient-to-b from-white to-white dark:from-gray-900 dark:to-black">
     <section class="px-4 py-16">
         <div class="container mx-auto">

@@ -17,6 +17,19 @@
     ];
 </script>
 
+<svelte:head>
+    <title>Photo Gallery - Big Blockers - MLRITM</title>
+    <meta name="description" content="Explore memories from Big Blockers Hyderabad events, workshops, and community gatherings. See our blockchain community in action through our photo gallery." />
+    <meta name="keywords" content="BBH photos, MLRITM events gallery, blockchain community, event pictures, Big Blockers memories" />
+    <meta property="og:title" content="Photo Gallery - Big Blockers Hyderabad MLRITM" />
+    <meta property="og:description" content="Browse through our collection of memories from Big Blockers Hyderabad events and community gatherings." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bbh-mlritm.com/photobooth" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Photo Gallery - Big Blockers Hyderabad MLRITM" />
+    <meta name="twitter:description" content="Browse through our collection of memories from Big Blockers Hyderabad events and community gatherings." />
+</svelte:head>
+
 <main class="min-h-screen p-4 bg-gradient-to-b from-white to-white dark:from-gray-900 dark:to-black">
     <div class="container mx-auto">
         <h1 class="mb-8 text-3xl font-bold">Photo Gallery</h1>
