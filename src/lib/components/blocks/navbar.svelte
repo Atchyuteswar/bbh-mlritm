@@ -41,14 +41,6 @@
 			<div class="px-2">
 				<ThemeSwitch />
 			</div>
-			<a
-				href="https://github.com/bbh-mlritm"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="rounded-lg p-2.5 text-sm text-gray-300 hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-600 dark:text-gray-400 dark:hover:bg-gray-700"
-			>
-				<Github class="text-black dark:text-gray-400 h-6 w-6" />
-			</a>
 			<Button
 				data-collapse-toggle="navbar-user"
 				variant="ghost"

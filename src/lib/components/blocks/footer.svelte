@@ -1,7 +1,7 @@
 <script lang="ts">
 	import ThemeSwitch from '@/components/blocks/ThemeSwitch.svelte';
 	import { Heart, MoveUp, ArrowUpFromDot, ArrowUp, Linkedin } from 'lucide-svelte';
-	import { Github } from 'lucide-svelte';
+	import { Github, Instagram } from 'lucide-svelte';
 	import logo from '$lib/assets/logo.png';
 	import FooterLogo from '$lib/assets/footer-logo.png';
 
@@ -59,6 +59,14 @@
 						class=" text-black dark:text-gray-400 hover:text-teal-400 transition-colors"
 					>
 						<Linkedin />
+					</a>
+					<a
+						href="https://www.instagram.com/bbh_mlritm/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class=" text-black dark:text-gray-400 hover:text-teal-400 transition-colors"
+					>
+						<Instagram />
 					</a>
 				</div>
 			</div>
