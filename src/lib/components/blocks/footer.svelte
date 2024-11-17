@@ -49,7 +49,7 @@
 					<li>MLRITM</li>
 					<li>Dundigal, Hyderabad, India.</li>
 					<li>Phno: +91 77028 50277</li>
-					<li>Email: gottumukkala.atchyuteswar@timechainlabs.com</li>
+					<li>Email: atchyuteswar.gottumukkala@timechainlabs.com</li>
 				</ul>
 			</div>
 

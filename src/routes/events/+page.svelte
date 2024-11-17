@@ -13,7 +13,8 @@
             author: "Rohan Sharon",
             date: "November 23, 2024",
             status: "Open",
-            difficulty: "Workshop"
+            difficulty: "Workshop",
+            img: "https://media.licdn.com/dms/image/v2/D5603AQHLEy5Js7Q-ew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718484227248?e=1737590400&v=beta&t=FszE3jA24ra7y_-g4k0nI9y0Z3BQlMAfIelL8FRAtao"
         }
         // {
         //     id: 2,
@@ -109,7 +110,9 @@
                     
                     <div class="mt-6 flex items-center justify-between">
                         <div class="flex items-center space-x-2">
-                            <div class="h-8 w-8 rounded-full bg-gray-200 dark:bg-gray-700"></div>
+                            <div>
+                                <img src={til.img} alt="Author" class="h-8 w-8 rounded-full" />
+                            </div>
                             <div>
                                 <p class="text-sm font-medium text-gray-900 dark:text-white">{til.author}</p>
                                 <p class="text-xs text-gray-500 dark:text-gray-400">{til.date}</p>
