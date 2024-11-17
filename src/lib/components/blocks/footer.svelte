@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ThemeSwitch from '@/components/blocks/ThemeSwitch.svelte';
-	import { Heart, MoveUp, ArrowUpFromDot, ArrowUp } from 'lucide-svelte';
+	import { Heart, MoveUp, ArrowUpFromDot, ArrowUp, Linkedin } from 'lucide-svelte';
 	import { Github } from 'lucide-svelte';
 	import logo from '$lib/assets/logo.png';
 
@@ -24,7 +24,7 @@
 					<span class="text-xl font-semibold">BBH-MLRITM</span>
 				</a>
 				<p class="mt-4 text-sm text-gray-400">
-					Empowering students through technology and innovation at MLRITM.
+					Empowering students through Blockchain technology and innovation at MLRITM.
 				</p>
 			</div>
 
@@ -47,8 +47,9 @@
 				<h3 class="mb-4 text-lg font-semibold">Contact</h3>
 				<ul class="space-y-2 text-gray-400">
 					<li>MLRITM</li>
-					<li>Hyderabad, India</li>
-					<li>Email: contact@mlritm.ac.in</li>
+					<li>Dundigal, Hyderabad, India.</li>
+					<li>Phno: +91 77028 50277</li>
+					<li>Email: gottumukkala.atchyuteswar@timechainlabs.com</li>
 				</ul>
 			</div>
 
@@ -57,12 +58,12 @@
 				<h3 class="mb-4 text-lg font-semibold">Connect</h3>
 				<div class="flex items-center justify-center space-x-4 md:justify-start">
 					<a
-						href="https://github.com/BBH-MLRITM"
+						href="https://www.linkedin.com/showcase/bigblockers/posts/?feedView=all"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="rounded-md p-3 text-gray-400 transition-colors hover:border-gray-400 hover:bg-teal-400 hover:text-white"
 					>
-						<Github class="size-6" />
+						<Linkedin class="size-6" />
 					</a>
 					<ThemeSwitch />
 				</div>
