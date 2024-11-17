@@ -3,6 +3,11 @@
 	import Particles from '@/components/Particles.svelte';
 	import PulsatingButton from '@/components/PulsatingButton.svelte';
 
+	import type { PageData } from './$types';
+	import { tils } from '$lib/index';
+
+	let { data }: { data: PageData } = $props();
+
 	// Club features
 	const features = [
 		{
@@ -28,24 +33,11 @@
 	];
 
 	// Recent activities
-	const recentActivities = [
-		{
-			title: 'Orientation Day & Workshop',
-			date: 'November 2024',
-			description:
-				'An Orientation Day & Workshop to get you started with Blockchain technology.'
-		}
-		// {
-		// 	title: 'Tech Talk: Future of ML',
-		// 	date: 'November 2023',
-		// 	description: 'Industry experts sharing insights on machine learning trends'
-		// },
-		// {
-		// 	title: 'Coding Sprint',
-		// 	date: 'October 2023',
-		// 	description: 'Weekend-long coding event focusing on innovative ML solutions'
-		// }
-	];
+	const recentActivities = tils.map(til => ({
+		title: til.title,
+		date: new Date(til.date).toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+		description: til.description
+	}));
 </script>
 
 <main class="min-h-screen">
@@ -59,7 +51,7 @@
 
     <BlurFade delay={0.25}>
         <span
-        class="pointer-events-none my-12 flex justify-center whitespace-pre-wrap bg-gradient-to-b from-[#ffffff] to-[#05d5c4] bg-clip-text text-center text-7xl font-semibold leading-none text-transparent dark:from-[#ffffff] dark:to-[#99F6E4]"
+        class="pointer-events-none my-12 flex justify-center whitespace-pre-wrap bg-gradient-to-b from-[#ffffff] to-[#05d5c4] bg-clip-text text-center text-7xl font-semibold leading-none text-transparent dark:from-[#ffffff] dark:to-[#99F6E4] lg:py-12"
     >
         Welcome to Big Blockers - MLRITM
     </span>

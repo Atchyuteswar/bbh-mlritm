@@ -70,7 +70,7 @@
 					<li>
 						<a
 							href={item.href}
-							class={`${isActive(item.name) ? 'block rounded bg-red-700 px-3 py-2 capitalize text-white md:bg-transparent md:p-0 md:text-red-700 md:dark:text-red-500' : 'block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:p-0 md:hover:bg-transparent md:hover:text-red-700 md:dark:hover:bg-transparent md:dark:hover:text-red-500'}`}
+							class={`${isActive(item.name) ? 'block rounded bg-teal-700 px-3 py-2 capitalize text-white md:bg-transparent md:p-0 md:text-teal-700 md:dark:text-teal-500' : 'block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:p-0 md:hover:bg-transparent md:hover:text-teal-700 md:dark:hover:bg-transparent md:dark:hover:text-teal-500'}`}
 							aria-current={isActive(item.name) ? 'page' : undefined}>{item.name}</a
 						>
 					</li>
