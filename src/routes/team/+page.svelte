@@ -24,8 +24,8 @@
             name: 'Ms.K.Jayasri(Ph.D)',
             role: 'Faculty Incharge',
             image: jayasriImg,
-            linkedin: 'https://linkedin.com/mikejohnson',
-            github: 'https://github.com/mikejohnson'
+            linkedin: '#',
+            github: '#'
         }
     ];
 
