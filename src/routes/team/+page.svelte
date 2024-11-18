@@ -14,19 +14,19 @@
     // Team members data
     const teamMembersFaculty = [
         {
-            name: 'Ms.K.Jayasri(Ph.D)',
-            role: 'Faculty Incharge',
-            image: jayasriImg,
-            linkedin: 'https://linkedin.com/mikejohnson',
-            github: 'https://github.com/mikejohnson'
-        },
-        {
             name: 'Dr N Pushpalatha',
             role: 'Head of the Department',
             image: 'https://placehold.co/600x400',
             linkedin: 'https://linkedin.com/mikejohnson',
             github: 'https://github.com/mikejohnson'
         },
+        {
+            name: 'Ms.K.Jayasri(Ph.D)',
+            role: 'Faculty Incharge',
+            image: jayasriImg,
+            linkedin: 'https://linkedin.com/mikejohnson',
+            github: 'https://github.com/mikejohnson'
+        }
     ];
 
     const teamMembersLeads = [
