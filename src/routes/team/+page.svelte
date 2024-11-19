@@ -73,7 +73,7 @@
             github: 'https://github.com/Atchyuteswar'    
         },
         {
-            name: 'Vasupula Manikantha',
+            name: 'Vasupula Manikanth',
             role: 'Photography Co-Lead',
             image: maniImg,
             linkedin: 'https://www.linkedin.com/in/adarsh-yerram-132138323/',
