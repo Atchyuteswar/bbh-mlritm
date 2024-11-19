@@ -1,10 +1,8 @@
 <script lang="ts">
     import type { PageData } from './$types';
-    
-    // Import team member images
+
     import atchyuteswarImg from '$lib/assets/team/atchyuteswar.jpg';
     import shivaniImg from '$lib/assets/team/shivani.jpg';
-    import defaultImg from '$lib/assets/team/default.jpg';
     import vishnuImg from '$lib/assets/team/vishnu.jpg';
     import jayasriImg from '$lib/assets/team/jayasri.jpg';
     import AdarshImg from '$lib/assets/team/adarsh.jpg';
