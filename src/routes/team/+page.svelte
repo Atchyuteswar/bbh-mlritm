@@ -8,6 +8,7 @@
     import vishnuImg from '$lib/assets/team/vishnu.jpg';
     import jayasriImg from '$lib/assets/team/jayasri.jpg';
     import AdarshImg from '$lib/assets/team/adarsh.jpg';
+    import pushpaImg from '$lib/assets/team/pushpa.jpeg'
 
     let { data }: { data: PageData } = $props();
 
@@ -16,7 +17,7 @@
         {
             name: 'Dr N Pushpalatha',
             role: 'Head of the Department',
-            image: 'https://placehold.co/600x400',
+            image: pushpaImg,
             linkedin: 'https://linkedin.com/mikejohnson',
             github: 'https://github.com/mikejohnson'
         },
@@ -48,7 +49,7 @@
 
     const teamMembersPROR = [
         {
-            name: 'Shivani Mulgi',
+            name: 'Shivani Mulge',
             role: 'PR & Outreach Lead',
             image: shivaniImg,
             linkedin: 'https://linkedin.com/in/atchyuteswar',
