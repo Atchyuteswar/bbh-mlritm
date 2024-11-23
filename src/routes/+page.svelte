@@ -12,22 +12,22 @@
 		{
 			title: 'Collaboration',
 			description: 'Collaborate with like-minded individuals who share your passion for blockchain. Our community fosters an environment where ideas flourish, and partnerships are forged.',
-			icon: ''
+			icon: '🤝'
 		},
 		{
 			title: 'Blockchain Development',
 			description: 'We focus on educating and empowering our members with the potential of the BSV blockchain.',
-			icon: ''
+			icon: '⛓️'
 		},
 		{
 			title: 'Workshops and Talks',
 			description: 'Learn from industry experts and gain practical knowledge in blockchain technology.',
-			icon: ''
+			icon: '🎯'
 		},
 		{
 			title: 'Hackathons',
 			description: 'Participate in coding competitions and hackathons to showcase your skills and creativity.',
-			icon: ''
+			icon: '💻'
 		}
 	];
 

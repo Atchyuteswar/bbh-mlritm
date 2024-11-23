@@ -6,7 +6,7 @@
     import vishnuImg from '$lib/assets/team/vishnu.jpg';
     import jayasriImg from '$lib/assets/team/jayasri.jpg';
     import AdarshImg from '$lib/assets/team/adarsh.jpg';
-    import pushpaImg from '$lib/assets/team/pushpa.jpeg';
+    import pushpaLathaImg from '$lib/assets/team/pushpa.jpeg';
     import krishnaImg from '$lib/assets/team/krishna.jpg';
     import maniImg from '$lib/assets/team/mani.jpeg';
 
@@ -17,7 +17,7 @@
         {
             name: 'Dr N Pushpalatha',
             role: 'Head of the Department',
-            image: pushpaImg,
+            image: pushpaLathaImg,
             linkedin: 'https://linkedin.com/mikejohnson',
             github: 'https://github.com/mikejohnson'
         },
