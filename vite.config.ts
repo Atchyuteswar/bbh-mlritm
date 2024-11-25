@@ -1,7 +1,8 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
-import VitePluginStaticCopy from 'vite-plugin-static-copy';
+import { enhancedImages } from '@sveltejs/enhanced-img';
+
 
 export default defineConfig({
-	plugins: [sveltekit()]
+	plugins: [sveltekit(),	enhancedImages(),]
 });
