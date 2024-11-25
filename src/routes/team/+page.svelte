@@ -83,16 +83,53 @@
 </script>
 
 <svelte:head>
-    <title>Our Team - Big Blockers - MLRITM</title>
-    <meta name="description" content="Meet the passionate team behind Big Blockers Hyderabad at MLRITM. Our diverse group of blockchain enthusiasts, developers, and innovators driving the future of technology." />
-    <meta name="keywords" content="BBH team, MLRITM blockchain team, student innovators, tech leaders, Big Blockers Hyderabad team" />
-    <meta property="og:title" content="Our Team - Big Blockers Hyderabad MLRITM" />
-    <meta property="og:description" content="Meet the innovative minds behind Big Blockers Hyderabad. Discover our team of blockchain enthusiasts and tech leaders." />
+    <title>Our Team | Big Blockers Hyderabad Leadership - MLRITM Blockchain Community</title>
+    <meta name="description" content="Meet the passionate team behind Big Blockers Hyderabad at MLRITM. Our leaders and members are dedicated to advancing blockchain education and innovation in the student community." />
+    <meta name="keywords" content="Big Blockers Hyderabad team, MLRITM blockchain leaders, student blockchain community, tech community leaders Hyderabad, blockchain education team, BBH leadership" />
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://bbh-mlritm.com/team" />
+    <meta property="og:title" content="Meet Our Team | Big Blockers Hyderabad - MLRITM" />
+    <meta property="og:description" content="Get to know the dedicated team driving blockchain innovation and education at Big Blockers Hyderabad, MLRITM's premier tech community." />
+    <meta property="og:image" content="https://bbh-mlritm.com/team-preview.jpg" />
+    <meta property="og:site_name" content="Big Blockers Hyderabad" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Our Team - Big Blockers Hyderabad MLRITM" />
-    <meta name="twitter:description" content="Meet the innovative minds behind Big Blockers Hyderabad. Discover our team of blockchain enthusiasts and tech leaders." />
+    <meta name="twitter:title" content="Meet the Team | Big Blockers Hyderabad Leadership" />
+    <meta name="twitter:description" content="Discover the passionate individuals leading blockchain innovation and education at Big Blockers Hyderabad, MLRITM." />
+    <meta name="twitter:image" content="https://bbh-mlritm.com/team-preview.jpg" />
+    
+    <!-- Additional SEO Tags -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Big Blockers Hyderabad" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://bbh-mlritm.com/team" />
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Big Blockers Hyderabad Team",
+      "description": "Leadership and core team members of Big Blockers Hyderabad at MLRITM",
+      "url": "https://bbh-mlritm.com/team",
+      "member": [
+        {
+          "@type": "Person",
+          "name": "Team Leadership",
+          "description": "Core team members driving blockchain innovation and education"
+        }
+      ],
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Big Blockers Hyderabad",
+        "url": "https://bbh-mlritm.com"
+      }
+    }
+    </script>
 </svelte:head>
 
 <main class="min-h-screen bg-gradient-to-b from-white to-white dark:from-gray-900 dark:to-black ">

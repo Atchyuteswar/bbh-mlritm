@@ -49,16 +49,55 @@
 </script>
 
 <svelte:head>
-    <title>Events - Big Blockers - MLRITM</title>
-    <meta name="description" content="Explore upcoming blockchain events, workshops, and hackathons at Big Blockers Hyderabad. Join our community events and stay updated with the latest in blockchain technology." />
-    <meta name="keywords" content="blockchain events, MLRITM events, hackathons, workshops, tech events, Big Blockers Hyderabad" />
-    <meta property="og:title" content="Events - Big Blockers Hyderabad MLRITM" />
-    <meta property="og:description" content="Discover exciting blockchain events and workshops at Big Blockers Hyderabad. Join us for hands-on learning experiences." />
+    <title>Events & Workshops | Big Blockers Hyderabad - MLRITM Blockchain Community</title>
+    <meta name="description" content="Join Big Blockers Hyderabad's exciting blockchain events, workshops, and hackathons at MLRITM. Stay updated with our upcoming activities and past event highlights." />
+    <meta name="keywords" content="blockchain events Hyderabad, MLRITM workshops, Big Blockers events, blockchain hackathons, tech workshops Hyderabad, student blockchain events, cryptocurrency workshops" />
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://bbh-mlritm.com/events" />
+    <meta property="og:title" content="Blockchain Events & Workshops | Big Blockers Hyderabad - MLRITM" />
+    <meta property="og:description" content="Discover upcoming blockchain events, workshops, and hackathons at MLRITM. Join Big Blockers Hyderabad for hands-on learning experiences." />
+    <meta property="og:image" content="https://bbh-mlritm.com/events-preview.jpg" />
+    <meta property="og:site_name" content="Big Blockers Hyderabad" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Events - Big Blockers Hyderabad MLRITM" />
-    <meta name="twitter:description" content="Discover exciting blockchain events and workshops at Big Blockers Hyderabad. Join us for hands-on learning experiences." />
+    <meta name="twitter:title" content="Blockchain Events & Workshops | Big Blockers Hyderabad" />
+    <meta name="twitter:description" content="Join our upcoming blockchain events and workshops at MLRITM. Learn, network, and grow with Big Blockers Hyderabad." />
+    <meta name="twitter:image" content="https://bbh-mlritm.com/events-preview.jpg" />
+    
+    <!-- Additional SEO Tags -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Big Blockers Hyderabad" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://bbh-mlritm.com/events" />
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Big Blockers Hyderabad Events & Workshops",
+      "description": "Regular blockchain workshops, hackathons, and educational events organized by Big Blockers Hyderabad at MLRITM",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Big Blockers Hyderabad",
+        "url": "https://bbh-mlritm.com"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "MLRITM",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Hyderabad",
+          "addressRegion": "Telangana",
+          "addressCountry": "IN"
+        }
+      }
+    }
+    </script>
 </svelte:head>
 
 <main class="min-h-screen bg-gradient-to-b from-gray-800 to-gray-900 py-16 dark:from-gray-900 dark:to-black">

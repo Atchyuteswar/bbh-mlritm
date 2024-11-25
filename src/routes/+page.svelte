@@ -40,16 +40,53 @@
 </script>
 
 <svelte:head>
-    <title>Big Blockers Hyderabad - MLRITM's Premier Blockchain Community</title>
-    <meta name="description" content="Join Big Blockers Hyderabad at MLRITM, where we empower students through blockchain technology and innovation. Discover workshops, events, and a vibrant tech community." />
-    <meta name="keywords" content="blockchain, MLRITM, Big Blockers Hyderabad, student community, technology, innovation, cryptocurrency" />
-    <meta property="og:title" content="Big Blockers Hyderabad - MLRITM" />
-    <meta property="og:description" content="Join MLRITM's premier blockchain community. Learn, innovate, and grow with Big Blockers Hyderabad." />
+    <title>Big Blockers Hyderabad - MLRITM's Premier Blockchain Community | Learn Blockchain Technology</title>
+    <meta name="description" content="Big Blockers Hyderabad at MLRITM is the leading blockchain community fostering innovation, learning, and networking. Join our workshops, hackathons, and events to master blockchain technology and cryptocurrency development." />
+    <meta name="keywords" content="blockchain community Hyderabad, MLRITM blockchain, Big Blockers Hyderabad, blockchain education, cryptocurrency development, blockchain workshops, student tech community, blockchain innovation hub, Hyderabad tech community, blockchain learning" />
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://bbh-mlritm.com" />
+    <meta property="og:title" content="Big Blockers Hyderabad - MLRITM's Premier Blockchain Community" />
+    <meta property="og:description" content="Join Hyderabad's leading blockchain community at MLRITM. Experience hands-on learning, innovative workshops, and networking opportunities in blockchain technology." />
+    <meta property="og:image" content="https://bbh-mlritm.com/og-image.jpg" />
+    <meta property="og:site_name" content="Big Blockers Hyderabad" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Big Blockers Hyderabad - MLRITM" />
-    <meta name="twitter:description" content="Join MLRITM's premier blockchain community. Learn, innovate, and grow with Big Blockers Hyderabad." />
+    <meta name="twitter:title" content="Big Blockers Hyderabad - MLRITM's Blockchain Innovation Hub" />
+    <meta name="twitter:description" content="Discover blockchain technology with Hyderabad's premier student community. Join workshops, hackathons, and events at MLRITM." />
+    <meta name="twitter:image" content="https://bbh-mlritm.com/twitter-image.jpg" />
+    
+    <!-- Additional SEO Tags -->
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Big Blockers Hyderabad" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://bbh-mlritm.com" />
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Big Blockers Hyderabad",
+      "description": "MLRITM's Premier Blockchain Community",
+      "url": "https://bbh-mlritm.com",
+      "logo": "https://bbh-mlritm.com/logo.png",
+      "sameAs": [
+        "https://twitter.com/BBH_MLRITM",
+        "https://www.linkedin.com/company/big-blockers-hyderabad",
+        "https://github.com/BBH-MLRITM"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
 </svelte:head>
 
 <main class="min-h-screen">
